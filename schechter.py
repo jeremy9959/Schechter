@@ -16,7 +16,7 @@ def draw_dot(G,path=None):
 #%% 
 def new_graph():
     G=nx.Graph()
-    G.graph['graph']={'rankdir':'BT'}
+    G.graph['graph']={'rankdir':'BT','dpi':1200}
     G.add_node(0)
     for x in G.nodes:
         G.node[x]['label']=''
